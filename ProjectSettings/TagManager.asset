@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - obstacle
+  - Bird
+  - asteroid
+  - Tutor
+  - LevelCam
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG1
+    uniqueID: 3992609347
+    locked: 0
+  - name: BG2
+    uniqueID: 241074917
+    locked: 0
+  - name: Player
+    uniqueID: 2056326261
+    locked: 0
+  - name: Cloud
+    uniqueID: 655604305
+    locked: 0

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 7108633a0096e0048b383685ca5f2887
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - space: {fileID: 400000, guid: 34dfd09d8426a154c901f14936cc1a88, type: 2}
+  - asteroid: {fileID: 400000, guid: a0d6dd878c12d2043b8073015ab10860, type: 2}
+  - bird: {fileID: 400000, guid: 4e118f7bf2ed9994b9d1bd34c142b1f7, type: 2}
+  - alien2: {fileID: 400000, guid: 5062a12bffd3b3044af5b83b067caddb, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

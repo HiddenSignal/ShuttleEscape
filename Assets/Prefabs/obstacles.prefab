@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11438486}
+  m_Layer: 0
+  m_Name: obstacles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11438486
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a0bb45dace736e4da94eade75b07f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnTime: .800000012
+  spawnDelay: 0
+  bird: {fileID: 100000, guid: 4e118f7bf2ed9994b9d1bd34c142b1f7, type: 2}
+  ufo: {fileID: 100000, guid: 5062a12bffd3b3044af5b83b067caddb, type: 2}
+  asteroid: {fileID: 100000, guid: a0d6dd878c12d2043b8073015ab10860, type: 2}
+  pooledAmount: 5
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: bird
+      value: 
+      objectReference: {fileID: 100000, guid: 4e118f7bf2ed9994b9d1bd34c142b1f7, type: 2}
+    - target: {fileID: 0}
+      propertyPath: ufo
+      value: 
+      objectReference: {fileID: 100000, guid: 5062a12bffd3b3044af5b83b067caddb, type: 2}
+    - target: {fileID: 0}
+      propertyPath: asteroid
+      value: 
+      objectReference: {fileID: 100000, guid: a0d6dd878c12d2043b8073015ab10860, type: 2}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

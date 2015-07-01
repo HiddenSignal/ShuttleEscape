@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c2be9690cf192a148a26defff2346d4b
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - buttonLeader: {fileID: 2800000, guid: edb573aa990409d44babc82bb5e42a65, type: 3}
+  - buttonStart: {fileID: 2800000, guid: 36f68c6fb9a8a674ca3e0a1d9b0eeca3, type: 3}
+  - buttonCredits: {fileID: 2800000, guid: 80ffb99c29e588b40a7039f2733ab939, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
